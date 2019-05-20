@@ -1,0 +1,76 @@
+XH
+H 2 areas 15 global symbols
+M led_3.asm
+S Port_1_Data_SHADE Ref0000
+A text size 0 flags 0
+dbfile lib/led_3.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile lib/led_3.asm
+dbfunc 0 ? 0 I
+dbfile LED_3.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/Common/CYPRES~3/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LED_3.inc
+dbfunc 0 ? 0 I
+A UserModules size 3D flags 0
+dbfile lib/led_3.asm
+dbfunc 0 ? 0 I
+dbline 50 0
+dbline 51 2
+dbline 59 4
+dbline 5F 6
+dbline 61 9
+dbline 62 B
+dbline 66 D
+dbline 6A 10
+dbline 6E 12
+dbline 74 15
+dbline 75 17
+dbline 77 1B
+dbline 79 1D
+dbline 93 1E
+dbline 95 21
+dbline 96 24
+dbline 97 26
+dbline 99 2A
+dbline 9B 2C
+dbline B4 2D
+dbline B6 30
+dbline BC 32
+dbline BD 34
+dbline BE 36
+dbline C1 3A
+dbline C3 3C
+S $se$_LED_3_On Def001E
+S _LED_3_Start Def0004
+S LED_3_Switch Def0006
+S LED_3_Invert Def001E
+S _LED_3_Off Def0004
+S _LED_3_GetState Def002D
+S $sb$_LED_3_GetState Def002D
+S $se$_LED_3_GetState Def003D
+S LED_3_Stop Def0004
+S LED_3_On Def0000
+S _LED_3_Switch Def0006
+S _LED_3_Invert Def001E
+S $sb$_LED_3_Invert Def001E
+S $se$_LED_3_Invert Def002D
+S _LED_3_Stop Def0004
+S LED_3_Start Def0004
+S LED_3_Off Def0004
+S _LED_3_On Def0000
+S LED_3_GetState Def002D
+S $sb$_LED_3_On Def0000
+T 00 00 50 01 80 03 50 00 62 D0 00 00 29 00 A0 06
+R 00 00 00 01 43 0A 00 00
+T 00 0D 2E 00 00 04 80 04 26 00 00 FB 51 00 00 60
+R 00 00 00 01 03 03 00 00 03 09 00 00 03 0D 00 00
+T 00 18 04 70 3F 71 C0 7F 62 D0 00 00 36 00 00 04
+R 00 00 00 01 43 0A 00 00 03 0D 00 00
+T 00 24 51 00 00 60 04 70 3F 71 C0 7F 62 D0 00 00
+R 00 00 00 01 03 03 00 00 43 0E 00 00
+T 00 30 51 00 00 21 04 A0 03 50 01 70 3F 71 C0 7F
+R 00 00 00 01 03 03 00 00

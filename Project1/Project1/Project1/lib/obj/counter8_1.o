@@ -1,0 +1,111 @@
+XH
+H 2 areas 24 global symbols
+M counter8_1.asm
+A text size 0 flags 0
+dbfile lib/counter8_1.asm
+dbfunc 0 ? 0 I
+dbfile Counter8_1.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/Common/CYPRES~3/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Counter8_1.inc
+dbfunc 0 ? 0 I
+dbfile lib/counter8_1.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile lib/counter8_1.asm
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/Common/CYPRES~3/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+A UserModules size 4A flags 0
+dbfile lib/counter8_1.asm
+dbfunc 0 ? 0 I
+dbline 54 0
+dbline 56 3
+dbline 6F 4
+dbline 71 7
+dbline 8C 8
+dbline 8E B
+dbline A8 C
+dbline AA F
+dbline C6 10
+dbline C8 12
+dbline E1 13
+dbline E3 15
+dbline FE 16
+dbline 100 18
+dbline 127 19
+dbline 128 1A
+dbline 129 1C
+dbline 12A 1D
+dbline 12B 1F
+dbline 12C 20
+dbline 12D 23
+dbline 12E 25
+dbline 12F 27
+dbline 131 28
+dbline 132 2B
+dbline 134 2D
+dbline 135 2F
+dbline 136 31
+dbline 137 32
+dbline 138 34
+dbline 139 36
+dbline 13A 38
+dbline 13B 3A
+dbline 13C 3C
+dbline 13D 3E
+dbline 13E 40
+dbline 13F 42
+dbline 140 43
+dbline 141 47
+dbline 142 49
+S $sb$Counter8_1_DisableInt Def0004
+S $se$Counter8_1_DisableInt Def0008
+S _bCounter8_1_ReadCompareValue Def0016
+S _Counter8_1_bReadCompareValue Def0016
+S _Counter8_1_Stop Def000C
+S Counter8_1_Start Def0008
+S _bCounter8_1_ReadCounter Def0019
+S _Counter8_1_bReadCounter Def0019
+S $sb$Counter8_1_Start Def0008
+S $se$Counter8_1_Start Def000C
+S _Counter8_1_WriteCompareValue Def0013
+S _Counter8_1_DisableInt Def0004
+S _Counter8_1_Start Def0008
+S Counter8_1_WritePeriod Def0010
+S Counter8_1_EnableInt Def0000
+S $sb$Counter8_1_WritePeriod Def0010
+S $se$Counter8_1_WritePeriod Def0013
+S $sb$Counter8_1_EnableInt Def0000
+S $se$Counter8_1_EnableInt Def0004
+S bCounter8_1_ReadCompareValue Def0016
+S Counter8_1_bReadCompareValue Def0016
+S Counter8_1_Stop Def000C
+S bCounter8_1_ReadCounter Def0019
+S Counter8_1_bReadCounter Def0019
+S $sb$Counter8_1_bReadCompareValue Def0016
+S $se$Counter8_1_bReadCompareValue Def0019
+S $sb$Counter8_1_Stop Def000C
+S $se$Counter8_1_Stop Def0010
+S _Counter8_1_WritePeriod Def0010
+S Counter8_1_WriteCompareValue Def0013
+S _Counter8_1_EnableInt Def0000
+S $sb$Counter8_1_bReadCounter Def0019
+S $se$Counter8_1_bReadCounter Def004A
+S Counter8_1_DisableInt Def0004
+S $sb$Counter8_1_WriteCompareValue Def0013
+S $se$Counter8_1_WriteCompareValue Def0016
+T 00 00 43 E1 01 7F 41 E1 FE 7F 43 23 01 7F 41 23
+R 00 00 00 01
+T 00 0E FE 7F 60 21 7F 60 22 7F 5D 22 7F 4F 5D 22
+R 00 00 00 01
+T 00 1C 08 5D 23 08 41 23 FE 71 10 5D 21 08 62 21
+R 00 00 00 01
+T 00 2A 00 70 EF 5D 20 5D 22 08 52 00 60 22 71 10
+R 00 00 00 01
+T 00 38 52 02 60 21 70 EF 52 01 60 23 18 38 FD 70
+R 00 00 00 01
+T 00 46 3F 71 C0 7F
+R 00 00 00 01

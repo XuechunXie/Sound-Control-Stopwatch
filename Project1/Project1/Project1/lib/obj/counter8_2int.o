@@ -1,0 +1,28 @@
+XH
+H 3 areas 1 global symbols
+M counter8_2int.asm
+A text size 0 flags 0
+dbfile lib/counter8_2int.asm
+dbfunc 0 ? 0 I
+dbfile Counter8_2.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/Common/CYPRES~3/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Counter8_2.inc
+dbfunc 0 ? 0 I
+dbfile lib/counter8_2int.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile lib/counter8_2int.asm
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/Common/CYPRES~3/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+A InterruptRAM size 0 flags 20
+A UserModules size 1 flags 0
+dbfile lib/counter8_2int.asm
+dbfunc 0 ? 0 I
+dbline 4C 0
+S _Counter8_2_ISR Def0000
+T 00 00 7E
+R 00 00 00 02

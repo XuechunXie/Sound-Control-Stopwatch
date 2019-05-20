@@ -1,0 +1,10 @@
+# DO NOT DELETE
+./obj/boot.o : \
+   C:/PROGRA~2/Cypress/Common/CYPRES~3/tools/include/CY8C29~1/m8c.inc\
+   C:/PROGRA~2/Cypress/Common/CYPRES~3/tools/include/CY8C29~1/m8ssc.inc\
+   D:\Workspace\Work\PSoc\Project1\Project1\Project1\lib\GlobalParams.inc\
+   D:\Workspace\Work\PSoc\Project1\Project1\Project1\memory.inc
+./obj/main.o :  ./lib/Counter8_1.inc ./lib/Counter8_2.inc ./lib/LCD.inc\
+   ./lib/LED_1.inc ./lib/LED_2.inc ./lib/LED_3.inc ./lib/PSoCAPI.inc\
+   C:/PROGRA~2/Cypress/Common/CYPRES~3/tools/include/CY8C29~1/m8c.inc\
+   D:\Workspace\Work\PSoc\Project1\Project1\Project1\memory.inc
